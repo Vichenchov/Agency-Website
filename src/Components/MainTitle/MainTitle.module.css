@@ -1,0 +1,67 @@
+.container,
+.container_peragraphs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  flex-direction: column;
+  padding: 4rem;
+  height: 75vh;
+}
+
+.header {
+  font-size: 7rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  animation: moveInButtomHeader 0.7s ease-out;
+}
+
+.container_peragraphs {
+  flex-direction: row;
+  animation: moveInButtomPeragraphs 0.7s ease-out;
+}
+
+.header,
+.container_peragraphs {
+  animation-fill-mode: backwards;
+}
+
+.p {
+  font-size: 1.4rem;
+  border-radius: 100px;
+  background-color: #e8e5e480;
+  padding: 0.5rem 1.3rem;
+  margin: 0.5rem;
+  white-space: nowrap;
+}
+
+.bckgWhite:first-child {
+  background-color: #fff;
+}
+
+@keyframes moveInButtomHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInButtomPeragraphs {
+  0% {
+    opacity: 0;
+    transform: translateY(7rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
