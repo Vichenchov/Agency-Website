@@ -1,14 +1,17 @@
 import classes from "./Image.module.css";
 
-import img from "../../Resources/Images/liabon_tram_big.jpg";
 import { Link } from "react-router-dom";
 
-function Image() {
+function Image({ page, img, alt, label }) {
   return (
-    <Link to={"/#"} className={classes.link}>
+    <Link to={"/" + page} className={classes.link}>
       <div className={classes.container}>
-        <h2 className={classes.label}>label</h2>
-        <img className={classes.img} src={img} alt="air_ballon"></img>
+        {/* img size - 640h*427w */}
+        <img className={classes.img} src={img} alt={alt}></img>
+        <h2 className={classes.label}>{label}</h2>
+        <div className={classes.iconCircle}>
+          <box-icon name="right-arrow-alt"></box-icon>
+        </div>
       </div>
     </Link>
   );
