@@ -11,6 +11,9 @@ import barcelona from "../Resources/Images/barcelona.jpg";
 import italy from "../Resources/Images/italy.jpg";
 import newzeland from "../Resources/Images/newzeland.jpg";
 import la from "../Resources/Images/la.jpg";
+import video1 from "../Resources/videos/video1.mp4";
+import video2 from "../Resources/videos/video2.mp4";
+import ContactTitle from "../Components/ContactTitle/ContactTitle";
 
 function HomePage() {
   const titleRows = [
@@ -28,8 +31,9 @@ function HomePage() {
     { page: "#", img: italy, ale: "italy", label: "italy" },
     { page: "#", img: newzeland, ale: "newzeland", label: "newzeland" },
     { page: "#", img: la, ale: "la", label: "la" },
+    { page: "#", img: video1, ale: "video1", label: "video1", video: true },
+    { page: "#", img: video2, ale: "video2", label: "video2", video: true },
   ];
-  const bottomTitle = ["Let's work together.", "Get in touch."];
 
   return (
     <>
@@ -42,10 +46,11 @@ function HomePage() {
             img={img.img}
             alt={img.alt}
             label={img.label}
+            video={img.video === undefined ? false : true}
           />
         ))}
       </div>
-      <MainTitle titleRows={bottomTitle} />
+      <ContactTitle />
     </>
   );
 }

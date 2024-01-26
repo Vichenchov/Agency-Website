@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .container {
     align-items: center;
     flex-direction: column;

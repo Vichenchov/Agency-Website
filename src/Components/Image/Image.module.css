@@ -1,3 +1,7 @@
+.mainContainer {
+  position: relative;
+}
+
 .link {
   display: inline-block;
   margin: 0 0.75rem 2.5rem;
@@ -6,7 +10,7 @@
   width: 65rem;
   max-height: 42.7rem;
   min-width: 60rem;
-  animation: moveInButtom 0.7s ease-out;
+  animation: moveInButtom 1s ease-out;
 }
 
 .container {
@@ -18,7 +22,8 @@
   justify-content: center;
 }
 
-.img {
+.img,
+.backgroundVideo {
   max-width: 100%;
   border-radius: 10px;
   height: auto;
@@ -26,6 +31,11 @@
   display: block;
   transition: filter 0.5s ease-in-out;
   background-position: bottom;
+}
+
+.backgroundVideo {
+  height: 110%;
+  object-fit: fill;
 }
 
 .container:hover .img {
@@ -80,6 +90,10 @@
   opacity: 1;
 }
 
+.labelHidden {
+  display: none;
+}
+
 @keyframes blurImage {
   from {
     filter: blur(0);
@@ -101,7 +115,7 @@
 @keyframes moveInButtom {
   0% {
     opacity: 0;
-    transform: translateY(4rem);
+    transform: translateY(5rem);
   }
 
   100% {
@@ -149,14 +163,21 @@
     max-width: 67rem;
     min-height: 10rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    height: 110%;
   }
-}
-
-@media (max-width: 750px) {
-  .label,
-  .iconCircle {
+  .iconCircle,
+  .label {
     display: none;
+  }
+  .labelHidden {
+    display: block;
+    position: absolute;
+    color: black;
+    bottom: 0.5rem;
+    left: 1.5rem;
+    font-weight: 300;
+    animation: moveInButtom 1s ease-out;
   }
   @keyframes blurImage {
   }

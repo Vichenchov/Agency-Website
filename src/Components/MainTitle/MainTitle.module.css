@@ -9,19 +9,20 @@
 .container {
   flex-direction: column;
   padding: 4rem;
-  height: 75vh;
+  height: 90vh;
 }
 
 .header {
   font-size: 7rem;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   animation: moveInButtomHeader 0.7s ease-out;
 }
 
 .container_peragraphs {
   flex-direction: row;
   animation: moveInButtomPeragraphs 0.7s ease-out;
+  margin-top: 4rem;
 }
 
 .header,
@@ -78,7 +79,7 @@
     font-size: 5rem;
     font-weight: 500;
   }
-  .container_peragraphs{
+  .container_peragraphs {
     display: none;
   }
 }
@@ -87,11 +88,12 @@
   .header {
     font-size: 3rem;
     font-weight: 500;
+    margin-top: 6rem;
   }
-  .container{
+  .container {
     height: 50vh;
   }
-  .container_peragraphs{
+  .container_peragraphs {
     display: none;
   }
 }
