@@ -11,7 +11,7 @@ function Image({ page, img, alt, label, video }) {
           {!video ? (
             <img className={classes.img} src={img} alt={alt}></img>
           ) : (
-            <div class="video-container">
+            <div className="video-container">
               <video className={classes.backgroundVideo} autoPlay loop muted>
                 <source src={img} type="video/mp4"></source>
                 Your browser does not support the video tag.

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.links a {
+  margin: 0 1.25rem;
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: #7f7f7f;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.name label {
+  margin-left: 1rem;
+}

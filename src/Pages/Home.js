@@ -14,6 +14,7 @@ import la from "../Resources/Images/la.jpg";
 import video1 from "../Resources/videos/video1.mp4";
 import video2 from "../Resources/videos/video2.mp4";
 import ContactTitle from "../Components/ContactTitle/ContactTitle";
+import Footer from "../Components/Footer/Footer";
 
 function HomePage() {
   const titleRows = [
@@ -23,9 +24,14 @@ function HomePage() {
   ];
   const badges = ["Experties", "Branding", "Product", "Design Systems"];
   const imagesObjects = [
-    { page: "#", img: airBalloons, ale: "airBalloons", label: "airBalloons" },
-    { page: "#", img: mykonos, ale: "mykonos", label: "mykonos" },
-    { page: "#", img: ski, ale: "ski", label: "ski" },
+    {
+      page: "airBalloons",
+      img: airBalloons,
+      ale: "airBalloons",
+      label: "airBalloons",
+    },
+    { page: "mykonos", img: mykonos, ale: "mykonos", label: "mykonos" },
+    { page: "ski", img: ski, ale: "ski", label: "ski" },
     { page: "#", img: lisbon, ale: "lisbon", label: "lisbon" },
     { page: "#", img: barcelona, ale: "barcelona", label: "barcelona" },
     { page: "#", img: italy, ale: "italy", label: "italy" },
@@ -51,6 +57,7 @@ function HomePage() {
         ))}
       </div>
       <ContactTitle />
+      <Footer />
     </>
   );
 }
