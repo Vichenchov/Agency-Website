@@ -19,7 +19,7 @@ function MainTtitle({ titleRows, badges }) {
             <p
               key={index}
               className={`${classes.p} ${
-                badges.count !== 1 ? classes.bckgWhite : ""
+                badges.length !== 1 ? classes.bckgWhite : ""
               }`}
             >
               {badgeText}

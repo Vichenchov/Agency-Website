@@ -33,3 +33,41 @@
   padding: 0.9rem 2.8rem;
   color: black;
 }
+
+.iconCircle {
+  background-color: #e8e5e480;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1;
+}
+
+.iconCircle:hover {
+  background-color: black;
+}
+
+.iconCircle:hover .btnGray {
+  opacity: 0;
+}
+
+.iconCircle:hover .btnBlack {
+  opacity: 1;
+}
+
+[name="x"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnBlack {
+  opacity: 0;
+}
+
+.btnGray {
+  opacity: 1;
+}

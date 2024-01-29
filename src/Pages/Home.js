@@ -11,10 +11,7 @@ import barcelona from "../Resources/Images/barcelona.jpg";
 import italy from "../Resources/Images/italy.jpg";
 import newzeland from "../Resources/Images/newzeland.jpg";
 import la from "../Resources/Images/la.jpg";
-import video1 from "../Resources/videos/video1.mp4";
-import video2 from "../Resources/videos/video2.mp4";
 import ContactTitle from "../Components/ContactTitle/ContactTitle";
-import Footer from "../Components/Footer/Footer";
 
 function HomePage() {
   const titleRows = [
@@ -27,18 +24,16 @@ function HomePage() {
     {
       page: "airBalloons",
       img: airBalloons,
-      ale: "airBalloons",
+      alt: "airBalloons",
       label: "airBalloons",
     },
-    { page: "mykonos", img: mykonos, ale: "mykonos", label: "mykonos" },
-    { page: "ski", img: ski, ale: "ski", label: "ski" },
-    { page: "#", img: lisbon, ale: "lisbon", label: "lisbon" },
-    { page: "#", img: barcelona, ale: "barcelona", label: "barcelona" },
-    { page: "#", img: italy, ale: "italy", label: "italy" },
-    { page: "#", img: newzeland, ale: "newzeland", label: "newzeland" },
-    { page: "#", img: la, ale: "la", label: "la" },
-    { page: "#", img: video1, ale: "video1", label: "video1", video: true },
-    { page: "#", img: video2, ale: "video2", label: "video2", video: true },
+    { page: "mykonos", img: mykonos, alt: "mykonos", label: "mykonos" },
+    { page: "ski", img: ski, alt: "ski", label: "ski" },
+    { page: "#", img: lisbon, alt: "lisbon", label: "lisbon" },
+    { page: "#", img: barcelona, alt: "barcelona", label: "barcelona" },
+    { page: "#", img: italy, alt: "italy", label: "italy" },
+    { page: "#", img: newzeland, alt: "newzeland", label: "newzeland" },
+    { page: "#", img: la, alt: "la", label: "la" },
   ];
 
   return (
@@ -57,7 +52,6 @@ function HomePage() {
         ))}
       </div>
       <ContactTitle />
-      <Footer />
     </>
   );
 }
