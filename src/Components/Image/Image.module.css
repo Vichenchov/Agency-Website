@@ -22,8 +22,7 @@
   justify-content: center;
 }
 
-.img,
-.backgroundVideo {
+.img {
   max-width: 100%;
   border-radius: 10px;
   height: auto;
@@ -31,11 +30,6 @@
   display: block;
   transition: filter 0.5s ease-in-out;
   background-position: bottom;
-}
-
-.backgroundVideo {
-  height: 110%;
-  object-fit: fill;
 }
 
 .container:hover .img {

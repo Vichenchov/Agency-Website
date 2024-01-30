@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import MainNavigation from "../Components/MainNavigation/MainNavigation";
 import Footer from "../Components/Footer/Footer";
 import NavBtn from "../Components/MainNavigation/NavBtn";
+import ContactTitle from "../Components/ContactTitle/ContactTitle";
 
 function RootLayout() {
   const location = useLocation();
@@ -14,6 +15,7 @@ function RootLayout() {
       <main>
         <Outlet />
       </main>
+      {location.pathname !== "/Contact" && <ContactTitle />}
       <Footer />
     </>
   );
