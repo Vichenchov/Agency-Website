@@ -1,4 +1,8 @@
 import mykonos from "../Images/mykonos.jpg";
+import mykonosLarg from "../ProjectPagesImage/mykonosLarg.jpg";
+import mykonosM1 from "../ProjectPagesImage/mykonosM1.jpg";
+import mykonosM2 from "../ProjectPagesImage/mykonosM2.jpg";
+
 import airBalloons from "../Images/airbaloons.jpg";
 import ski from "../Images/ski.jpg";
 import lisbon from "../Images/lisbon.jpg";
@@ -15,7 +19,7 @@ const data = [
     label: "mykonos",
     titleRows: ["mykonos"],
     badges: ["mykonos"],
-    images: [""],
+    images: [mykonosLarg, mykonosM1, mykonosM2],
   },
   {
     page: "airBalloons",

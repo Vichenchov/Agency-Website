@@ -1,4 +1,4 @@
-import classes from "./Image.module.css";
+import classes from "./BtnImage.module.css";
 
 import { Link } from "react-router-dom";
 

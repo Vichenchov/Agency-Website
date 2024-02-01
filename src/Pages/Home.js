@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 
 import MainTitle from "../Components/MainTitle/MainTtitle";
-import Image from "../Components/Image/Image";
+import BtnImage from "../Components/BtnImage/BtnImage";
 
 import data from "../Resources/Data/pagesData";
 
@@ -18,7 +18,7 @@ function HomePage() {
       <MainTitle titleRows={titleRows} badges={badges} />
       <div className={classes.container}>
         {data.map((img, index) => (
-          <Image
+          <BtnImage
             key={index}
             page={img.page}
             img={img.img}
