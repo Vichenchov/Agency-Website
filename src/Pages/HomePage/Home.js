@@ -1,9 +1,9 @@
 import classes from "./Home.module.css";
 
-import MainTitle from "../Components/MainTitle/MainTtitle";
-import BtnImage from "../Components/BtnImage/BtnImage";
+import MainTitle from "../../Components/MainTitle/MainTtitle";
+import BtnImage from "../../Components/BtnImage/BtnImage";
 
-import data from "../Resources/Data/pagesData";
+import data from "../../Resources/Data/pagesData";
 
 function HomePage() {
   const titleRows = [
@@ -13,6 +13,8 @@ function HomePage() {
   ];
   const badges = ["Experties", "Branding", "Product", "Design Systems"];
 
+  window.scrollTo(0, 0);
+
   return (
     <>
       <MainTitle titleRows={titleRows} badges={badges} />
@@ -21,7 +23,7 @@ function HomePage() {
           <BtnImage
             key={index}
             page={img.page}
-            img={img.img}
+            img={img.mainImg}
             alt={img.alt}
             label={img.label}
           />

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #e8e5e480;
+  text-decoration: none;
+  padding: 0.9rem 2.8rem;
+  color: black;
+  border-width: 0;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+}

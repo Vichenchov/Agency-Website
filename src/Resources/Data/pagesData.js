@@ -1,136 +1,44 @@
-import mykonos from "../Images/mykonos.jpg";
-import mykonosLarg from "../ProjectPagesImage/mykonosLarg.jpg";
-import mykonosLarg2 from "../ProjectPagesImage/mykonosLarg2.jpg";
-import mykonosM1 from "../ProjectPagesImage/mykonosM1.jpg";
-import mykonosM2 from "../ProjectPagesImage/mykonosM2.jpg";
+import web1_l from "../ProjectPagesImage/web/web1_l.jpg";
+import web2_l from "../ProjectPagesImage/web/web2_l.jpg";
+import web1_s from "../ProjectPagesImage/web/web1_s.jpg";
+import web2_s from "../ProjectPagesImage/web/web2_s.jpg";
+import web3_s from "../ProjectPagesImage/web/web3_s.jpg";
 
-import airBalloons from "../Images/airbaloons.jpg";
-import ski from "../Images/ski.jpg";
-import lisbon from "../Images/lisbon.jpg";
-import barcelona from "../Images/barcelona.jpg";
-import italy from "../Images/italy.jpg";
-import newzeland from "../Images/newzeland.jpg";
-import LosAngeles from "../Images/la.jpg";
+import product1_l from "../ProjectPagesImage/product/product1_l.jpg";
+import product2_l from "../ProjectPagesImage/product/product2_l.jpg";
+import product1_s from "../ProjectPagesImage/product/product1_s.jpg";
+import product3_s from "../ProjectPagesImage/product/product3_s.jpg";
+import product4_s from "../ProjectPagesImage/product/product4_s.jpg";
 
 const data = [
   {
-    page: "mykonos",
-    img: mykonos,
-    alt: "mykonos",
-    label: "mykonos",
-    titleRows: ["mykonos"],
-    badges: ["mykonos"],
-    images: [mykonosLarg, mykonosLarg2, mykonosM1, mykonosM2],
+    page: "productdesign",
+    mainImg: product1_s,
+    alt: "Product Design",
+    label: "Product Design",
+    titleRows: ["Product Design"],
+    badges: ["Product Design"],
+    images: [product1_l, product2_l, product4_s, product3_s],
     labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
+      { title: "Client", content: "Max" },
+      { title: "Studio", content: "Max" },
+      { title: "Role", content: "Max" },
+      { title: "Focus", content: "Product Design" },
     ],
   },
   {
-    page: "airBalloons",
-    img: airBalloons,
-    alt: "airBalloons",
-    label: "airBalloons",
-    titleRows: ["airBalloons"],
-    badges: ["airBalloons"],
-    images: [""],
+    page: "webdesign",
+    mainImg: web1_s,
+    alt: "Web Design",
+    label: "Web Design",
+    titleRows: ["Web Design"],
+    badges: ["Web Design"],
+    images: [web1_l, web2_l, web2_s, web3_s],
     labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "ski",
-    img: ski,
-    alt: "ski",
-    label: "ski",
-    titleRows: ["ski"],
-    badges: ["ski"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "lisbon",
-    img: lisbon,
-    alt: "lisbon",
-    label: "lisbon",
-    titleRows: ["lisbon"],
-    badges: ["lisbon"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "barcelona",
-    img: barcelona,
-    alt: "barcelona",
-    label: "barcelona",
-    titleRows: ["barcelona"],
-    badges: ["barcelona"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "italy",
-    img: italy,
-    alt: "italy",
-    label: "italy",
-    titleRows: ["italy"],
-    badges: ["italy"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "newzeland",
-    img: newzeland,
-    alt: "newzeland",
-    label: "newzeland",
-    titleRows: ["newzeland"],
-    badges: ["newzeland"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
-    ],
-  },
-  {
-    page: "Los Angeles",
-    img: LosAngeles,
-    alt: "Los Angeles",
-    label: "Los Angeles",
-    titleRows: ["Los Angeles"],
-    badges: ["Los Angeles"],
-    images: [""],
-    labels: [
-      { title: "Place", content: "Mykonos" },
-      { title: "Country", content: "Greece" },
-      { title: "Currency", content: "Euro" },
-      { title: "Language", content: "Greek" },
+      { title: "Client", content: "Max" },
+      { title: "Studio", content: "Max" },
+      { title: "Role", content: "Max" },
+      { title: "Focus", content: "Web Design" },
     ],
   },
 ];

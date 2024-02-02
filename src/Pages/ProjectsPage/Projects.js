@@ -1,10 +1,10 @@
 import classes from "./Projects.module.css";
 
 import { useParams } from "react-router-dom";
-import MainTtitle from "../Components/MainTitle/MainTtitle";
-import ProjectPage from "../Components/ProjectPage/ProjectPage";
+import MainTtitle from "../../Components/MainTitle/MainTtitle";
+import ProjectPage from "../../Components/ProjectsPageTamplate/ProjectsPageTamplate";
 
-import data from "../Resources/Data/pagesData";
+import data from "../../Resources/Data/pagesData";
 
 function Projects() {
   const { pageName } = useParams();
@@ -17,7 +17,7 @@ function Projects() {
     <>
       <MainTtitle
         titleRows={currentPageData.titleRows}
-        badges={[currentPageData.page]}
+        badges={currentPageData.badges}
       />
 
       <div className={classes.container}>

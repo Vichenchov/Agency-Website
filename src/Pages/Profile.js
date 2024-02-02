@@ -1,7 +1,7 @@
 import MainTitle from "../Components/MainTitle/MainTtitle";
 
 function Profile() {
-  const titleRows = ["Hey 👋🏼 I'm Oli"];
+  const titleRows = ["Hey 👋🏼 I'm Max"];
 
   window.scrollTo(0, 0);
 

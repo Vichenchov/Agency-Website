@@ -1,4 +1,4 @@
-import classes from "./ProjectPage.module.css";
+import classes from "./ProjectsPageTamplate.module.css";
 
 import RegularImage from "../RegularImage/RegularImage";
 
