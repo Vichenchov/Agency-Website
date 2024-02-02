@@ -1,5 +1,6 @@
 import mykonos from "../Images/mykonos.jpg";
 import mykonosLarg from "../ProjectPagesImage/mykonosLarg.jpg";
+import mykonosLarg2 from "../ProjectPagesImage/mykonosLarg2.jpg";
 import mykonosM1 from "../ProjectPagesImage/mykonosM1.jpg";
 import mykonosM2 from "../ProjectPagesImage/mykonosM2.jpg";
 
@@ -19,7 +20,13 @@ const data = [
     label: "mykonos",
     titleRows: ["mykonos"],
     badges: ["mykonos"],
-    images: [mykonosLarg, mykonosM1, mykonosM2],
+    images: [mykonosLarg, mykonosLarg2, mykonosM1, mykonosM2],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "airBalloons",
@@ -29,6 +36,12 @@ const data = [
     titleRows: ["airBalloons"],
     badges: ["airBalloons"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "ski",
@@ -38,6 +51,12 @@ const data = [
     titleRows: ["ski"],
     badges: ["ski"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "lisbon",
@@ -47,6 +66,12 @@ const data = [
     titleRows: ["lisbon"],
     badges: ["lisbon"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "barcelona",
@@ -56,6 +81,12 @@ const data = [
     titleRows: ["barcelona"],
     badges: ["barcelona"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "italy",
@@ -65,6 +96,12 @@ const data = [
     titleRows: ["italy"],
     badges: ["italy"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "newzeland",
@@ -74,6 +111,12 @@ const data = [
     titleRows: ["newzeland"],
     badges: ["newzeland"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
   {
     page: "Los Angeles",
@@ -83,6 +126,12 @@ const data = [
     titleRows: ["Los Angeles"],
     badges: ["Los Angeles"],
     images: [""],
+    labels: [
+      { title: "Place", content: "Mykonos" },
+      { title: "Country", content: "Greece" },
+      { title: "Currency", content: "Euro" },
+      { title: "Language", content: "Greek" },
+    ],
   },
 ];
 
