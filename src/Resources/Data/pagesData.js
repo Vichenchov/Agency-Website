@@ -10,7 +10,34 @@ import product1_s from "../ProjectPagesImage/product/product1_s.jpg";
 import product3_s from "../ProjectPagesImage/product/product3_s.jpg";
 import product4_s from "../ProjectPagesImage/product/product4_s.jpg";
 
+import graphic1_l from "../ProjectPagesImage/graphic/graphic1_l.jpg";
+import graphic2_l from "../ProjectPagesImage/graphic/graphic2_l.jpg";
+import graphic1_s from "../ProjectPagesImage/graphic/graphic1_s.jpg";
+import graphic2_s from "../ProjectPagesImage/graphic/graphic2_s.jpg";
+import graphic3_s from "../ProjectPagesImage/graphic/graphic3_s.jpg";
+
+import branding1_l from "../ProjectPagesImage/branding/branding1_l.jpg";
+import branding2_l from "../ProjectPagesImage/branding/branding2_l.jpg";
+import branding1_s from "../ProjectPagesImage/branding/branding1_s.jpg";
+import branding2_s from "../ProjectPagesImage/branding/branding2_s.jpg";
+import branding3_s from "../ProjectPagesImage/branding/branding3_s.jpg";
+
 const data = [
+  {
+    page: "graphicdesign",
+    mainImg: graphic1_s,
+    alt: "Graphic Design",
+    label: "Graphic Design",
+    titleRows: ["Graphic Design"],
+    badges: ["Graphic Design"],
+    images: [graphic1_l, graphic2_l, graphic2_s, graphic3_s],
+    labels: [
+      { title: "Client", content: "Max" },
+      { title: "Studio", content: "Max" },
+      { title: "Role", content: "Max" },
+      { title: "Focus", content: "Graphic Design" },
+    ],
+  },
   {
     page: "productdesign",
     mainImg: product1_s,
@@ -39,6 +66,21 @@ const data = [
       { title: "Studio", content: "Max" },
       { title: "Role", content: "Max" },
       { title: "Focus", content: "Web Design" },
+    ],
+  },
+  {
+    page: "branding",
+    mainImg: branding1_s,
+    alt: "Branding",
+    label: "Branding",
+    titleRows: ["Branding"],
+    badges: ["Branding"],
+    images: [branding1_l, branding2_l, branding2_s, branding3_s],
+    labels: [
+      { title: "Client", content: "Max" },
+      { title: "Studio", content: "Max" },
+      { title: "Role", content: "Max" },
+      { title: "Focus", content: "Branding" },
     ],
   },
 ];

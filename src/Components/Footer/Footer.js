@@ -2,7 +2,7 @@ import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div className={classes.container}>
+    <div id="footer" className={classes.container}>
       <div className={classes.links}>
         <a href="#">Linkedin</a>
         <a href="#">Mail</a>
